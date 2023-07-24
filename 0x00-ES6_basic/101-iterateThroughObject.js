@@ -1,12 +1,8 @@
 export default function iterateThroughObject(reportWithIterator) {
-  let result = '';
-
-  for (const employee of reportWithIterator) {
-    result += employee + ' | ';
+  let data = [];
+  for (const i of reportWithIterator) {
+    data.push(i);
   }
-
-  // Remove the trailing ' | ' from the result string
-  result = result.slice(0, -3);
-
-  return result;
+  data = data.join(' | ');
+  return data;
 }

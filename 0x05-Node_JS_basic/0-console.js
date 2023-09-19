@@ -1,5 +1,9 @@
-function displayMessage(message) {
-	console.log(message);
-}
+/**
+ * Displays message on stdout
+ * @param {String} msg - Message to display
+ */
+const displayMessage = (msg) => {
+  console.log(msg);
+};
 
-module.exports = displayMessage;;
+module.exports = displayMessage;

@@ -1,6 +1,3 @@
-/**
- * Calculation Module Subtract, divide, Sum
- */
 const calculateNumber = (type, a, b) => {
   if (type === 'SUM') {
     return Math.round(a) + Math.round(b);
